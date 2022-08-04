@@ -32,8 +32,14 @@
 
 # for i in range(11234567890):
 #     print(i)
+# img manipulation with PILLOW library
+# from PIL import Image,ImageFilter
+# before = Image.open("shark.png")
+# after = before.filter(ImageFilter.BoxBlur(9))
+# after.save("out.png")
 
-from PIL import Image,ImageFilter
-before = Image.open("shark.png")
-after = before.filter(ImageFilter.BoxBlur(12))
-after.save("out.png")
+# using cs50 package
+from cs50 import get_int
+x = get_int("x: ")
+y = get_int("y: ")
+print(x+y)
