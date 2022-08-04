@@ -39,7 +39,12 @@
 # after.save("out.png")
 
 # using cs50 package
-from cs50 import get_int
-x = get_int("x: ")
-y = get_int("y: ")
-print(x+y)
+# from cs50 import get_int
+# x = get_int("x: ")
+# y = get_int("y: ")
+# print(x+y)
+
+
+# CLASSWORK
+# CHECK WHETHER 10 IS GREATER OR LESS THAN 1
+# USING CONDITION
