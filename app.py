@@ -48,3 +48,10 @@
 # CLASSWORK
 # CHECK WHETHER 10 IS GREATER OR LESS THAN 1
 # USING CONDITION
+
+from cs50 import get_string
+s = get_string("Do you Agree: ")
+if s == "Y" or s == "y":
+    print("Agreed")
+elif s == "N" or s == "n":
+    print("not Agreed")    
